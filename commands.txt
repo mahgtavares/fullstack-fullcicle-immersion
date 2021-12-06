@@ -1,0 +1,11 @@
+docker-compose up -d
+
+Definition to this project:
+    - Network: fullstack-fullcicle-immersion_default
+    - Container: fullstack-fullcicle-immersion-app-1
+
+-> Access container
+docker exec -it container_name bash
+- ls                        ::: list files and folders
+- go mod init github_path   ::: define references
+
