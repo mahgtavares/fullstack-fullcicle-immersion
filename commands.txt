@@ -9,3 +9,5 @@ docker exec -it container_name bash
 - ls                        ::: list files and folders
 - go mod init github_path   ::: define references
 
+-> Run tests
+go test ./...
